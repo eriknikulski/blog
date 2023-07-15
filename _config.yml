@@ -13,6 +13,9 @@ github_username: "eriknikulski"
 #########################################################################################
 theme: "minima"
 
+minima:
+  skin: auto
+
 rss: rss
     
 plugins:
