@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 385" width="760" height="385" role="img" aria-label="Die reichsten 10 % besitzen den Großteil, die ärmere Hälfte fast nichts" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<rect width="760" height="385" fill="#ffffff"/>
+<text x="48.0" y="26.0" font-size="16" font-weight="600" fill="#1f1e1d" text-anchor="start">Die reichsten 10 % besitzen den Großteil, die ärmere Hälfte fast nichts</text>
+<text x="48.0" y="48.0" font-size="12" font-weight="400" fill="#6b6a66" text-anchor="start">Anteil der Gruppen an der Bevölkerung und am Nettovermögen, in Prozent (gerundet)</text>
+<rect x="48" y="64" width="12" height="12" fill="#c3c2b7" fill-opacity="1.0"/>
+<text x="66.0" y="74.0" font-size="12" font-weight="400" fill="#1f1e1d" text-anchor="start">Ärmere Hälfte</text>
+<rect x="198" y="64" width="12" height="12" fill="#e1e0d9" fill-opacity="1.0"/>
+<text x="216.0" y="74.0" font-size="12" font-weight="400" fill="#1f1e1d" text-anchor="start">Mittlere 40 %</text>
+<rect x="348" y="64" width="12" height="12" fill="#2a78d6" fill-opacity="1.0"/>
+<text x="366.0" y="74.0" font-size="12" font-weight="400" fill="#1f1e1d" text-anchor="start">Reichste 10 %</text>
+<text x="48.0" y="110.0" font-size="12" font-weight="400" fill="#1f1e1d" text-anchor="start">Anteil an der Bevölkerung</text>
+<rect x="48.0" y="118" width="344.0" height="30" fill="#c3c2b7" fill-opacity="1.0" stroke="#ffffff" stroke-width="1"><title>Anteil an der Bevölkerung, Ärmere Hälfte: 50 %</title></rect>
+<text x="220.0" y="138.0" font-size="12" font-weight="600" fill="#1f1e1d" text-anchor="middle">50 %</text>
+<rect x="392.0" y="118" width="275.2" height="30" fill="#e1e0d9" fill-opacity="1.0" stroke="#ffffff" stroke-width="1"><title>Anteil an der Bevölkerung, Mittlere 40 %: 40 %</title></rect>
+<text x="529.6" y="138.0" font-size="12" font-weight="600" fill="#1f1e1d" text-anchor="middle">40 %</text>
+<rect x="667.2" y="118" width="68.8" height="30" fill="#2a78d6" fill-opacity="1.0" stroke="#ffffff" stroke-width="1"><title>Anteil an der Bevölkerung, Reichste 10 %: 10 %</title></rect>
+<text x="701.6" y="138.0" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">10 %</text>
+<text x="48.0" y="190.0" font-size="12" font-weight="600" fill="#1f1e1d" text-anchor="start">Anteil am Vermögen in Deutschland</text>
+<rect x="48.0" y="198" width="20.6" height="30" fill="#c3c2b7" fill-opacity="1.0" stroke="#ffffff" stroke-width="1"><title>Anteil am Vermögen in Deutschland, Ärmere Hälfte: 3 %</title></rect>
+<text x="48.0" y="243.0" font-size="12" font-weight="600" fill="#1f1e1d" text-anchor="start">3 %</text>
+<rect x="68.6" y="198" width="254.6" height="30" fill="#e1e0d9" fill-opacity="1.0" stroke="#ffffff" stroke-width="1"><title>Anteil am Vermögen in Deutschland, Mittlere 40 %: 37 %</title></rect>
+<text x="195.9" y="218.0" font-size="12" font-weight="600" fill="#1f1e1d" text-anchor="middle">37 %</text>
+<rect x="323.2" y="198" width="412.8" height="30" fill="#2a78d6" fill-opacity="1.0" stroke="#ffffff" stroke-width="1"><title>Anteil am Vermögen in Deutschland, Reichste 10 %: 60 %</title></rect>
+<text x="529.6" y="218.0" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">60 %</text>
+<text x="48.0" y="270.0" font-size="12" font-weight="600" fill="#1f1e1d" text-anchor="start">Anteil am Vermögen weltweit</text>
+<rect x="48.0" y="278" width="13.8" height="30" fill="#c3c2b7" fill-opacity="1.0" stroke="#ffffff" stroke-width="1"><title>Anteil am Vermögen weltweit, Ärmere Hälfte: 2 %</title></rect>
+<text x="48.0" y="323.0" font-size="12" font-weight="600" fill="#1f1e1d" text-anchor="start">2 %</text>
+<rect x="61.8" y="278" width="158.2" height="30" fill="#e1e0d9" fill-opacity="1.0" stroke="#ffffff" stroke-width="1"><title>Anteil am Vermögen weltweit, Mittlere 40 %: 23 %</title></rect>
+<text x="140.9" y="298.0" font-size="12" font-weight="600" fill="#1f1e1d" text-anchor="middle">23 %</text>
+<rect x="220.0" y="278" width="516.0" height="30" fill="#2a78d6" fill-opacity="1.0" stroke="#ffffff" stroke-width="1"><title>Anteil am Vermögen weltweit, Reichste 10 %: 75 %</title></rect>
+<text x="478.0" y="298.0" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">75 %</text>
+<text x="48.0" y="355.0" font-size="11" font-weight="400" fill="#6b6a66" text-anchor="start">Daten: Sachverständigenrat, Jahresgutachten 2025/26 (Deutschland); World Inequality Report 2026 (weltweit)</text>
+<text x="48.0" y="371.0" font-size="11" font-weight="400" fill="#6b6a66" text-anchor="start">Weltweit: Anteil der mittleren 40 % als Rest berechnet</text>
+</svg>
