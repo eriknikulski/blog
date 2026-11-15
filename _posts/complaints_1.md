@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Beschwerden meiner Generation – 1. Klimawandel"
+date: 2026-11-15
+---
+
 # Beschwerden meiner Generation – 1. Klimawandel
 
 Nov 11, 2026 · @Erik
