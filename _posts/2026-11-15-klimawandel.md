@@ -1,9 +1,3 @@
----
-layout: post
-title: "Beschwerden meiner Generation – 1. Klimawandel"
-date: 2026-11-15
----
-
 # Beschwerden meiner Generation – 1. Klimawandel
 
 Nov 11, 2026 · @Erik
@@ -20,9 +14,13 @@ Klimawandel bezeichnet langfristige Veränderungen von Temperaturen und Wettermu
 
 **Der Mensch verstärkt ihn massiv.** Seit Beginn der Industrialisierung um 1750 verbrennen wir Kohle, Öl und Gas und roden Wälder. Der CO₂-Gehalt der Luft stieg dadurch um über 50 %, von rund 280 auf etwa 426 ppm: Heute sind 426 von einer Million Luftteilchen CO₂ ([NASA](https://science.nasa.gov/earth/explore/earth-indicators/carbon-dioxide/)). Dieser Anstieg ist mindestens 1,5-mal so groß wie der natürliche am Ende der letzten Eiszeit, geschah aber in wenigen Generationen statt in Jahrtausenden. So hoch war der CO₂-Gehalt zuletzt vor rund 3 Millionen Jahren. Der Weltklimarat (IPCC) hält es für eindeutig, dass der Mensch die Erwärmung verursacht ([IPCC](https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf)).
 
+![Globale Temperatur seit 1850]({{ '/assets/img/klimawandel/01-temperatur-global.png' | relative_url }})
+
 ## 1.2 Wo stehen wir?
 
 Alle zentralen Messgrößen zeigen in dieselbe Richtung, und viele beschleunigen sich. Temperaturen beziehen sich auf den vorindustriellen Durchschnitt 1850–1900.
+
+![CO₂-Gehalt der Luft seit 1850]({{ '/assets/img/klimawandel/02-co2.png' | relative_url }})
 
 | Indikator | Aktueller Stand | Einordnung | Quelle |
 | --- | --- | --- | --- |
@@ -42,7 +40,6 @@ Abstrakte Zahlen wie +1,4 °C klingen harmlos. Übersetzt in Hitzetage, Todesfä
 | Was | Früher | Heute | Quelle |
 | --- | --- | --- | --- |
 | Hitzestürme weltweit | rund 5 pro Jahr (1960er) | rund 102 pro Jahr (2020er) | [Reuters](https://www.reuters.com/investigates/special-report/climate-heatstorms-science/) |
-| Heiße Tage über 30 °C in Deutschland | rund 3 pro Jahr (1950er) | rund 11 pro Jahr | [DWD](https://bayika.de/bayika-wAssets/docs/aktuelles/2024/Faktenpapier_Extremwetter_DWD_EWK2024_09-1.pdf), [UBA](https://www.umweltbundesamt.de/daten/umweltindikatoren/indikator-heisse-tage) |
 | Eisverlust Grönland | 60 Mrd. Tonnen pro Jahr (1980er) | 264 Mrd. Tonnen pro Jahr (2010er) | [IMBIE 2026](https://www.northumbria.ac.uk/about-us/news-events/news/speeding-glaciers-drive-half-a-century-of-polar-ice-loss/) |
 | Eisverlust Antarktis | 48 Mrd. Tonnen pro Jahr (1980er) | 202 Mrd. Tonnen pro Jahr (2010er) | [IMBIE 2026](https://www.northumbria.ac.uk/about-us/news-events/news/speeding-glaciers-drive-half-a-century-of-polar-ice-loss/) |
 
@@ -52,6 +49,8 @@ Abstrakte Zahlen wie +1,4 °C klingen harmlos. Übersetzt in Hitzetage, Todesfä
 - **Beispiel Nepal:** Am 26. August 2026 brach in Nepal ein Gletscher zusammen, die folgende Flut tötete Tausende Menschen. Erste Untersuchungen deuten darauf hin, dass die Erwärmung zum Einsturz beitrug ([Reuters](https://www.reuters.com/sustainability/cop/climate-change-likely-have-helped-trigger-nepal-glacier-collapse-scientists-say-2026-09-17/)). Der Gletscher lag in diesem Jahrzehnt rund 58 % der Zeit unter einer Hitzewelle oder einem Hitzesturm, in den 1960ern nur 7 % ([Reuters](https://www.reuters.com/investigates/special-report/climate-heatstorms-science/)).
 - **Hitzetote in Europa:** Im Rekordsommer 2024 starben in 32 europäischen Ländern rund 62.800 Menschen an Hitze, darunter etwa 6.700 in Spanien und 6.300 in Deutschland ([ISGlobal](https://www.isglobal.org/en/-/62.700-muertes-asociadas-con-el-calor-del-verano-de-2024)). Zum Vergleich: Im Straßenverkehr der EU starben im ganzen Jahr 2024 rund 19.800 Menschen ([EU-Kommission](https://transport.ec.europa.eu/news-events/news/eu-road-fatalities-drop-3-2024-progress-remains-slow-2025-03-18_en)).
 - **Deutschland erwärmt sich schneller:** Seit 1881 ist es hier um 1,8 °C wärmer geworden, deutlich mehr als im weltweiten Durchschnitt ([DWD](https://bayika.de/bayika-wAssets/docs/aktuelles/2024/Faktenpapier_Extremwetter_DWD_EWK2024_09-1.pdf)).
+
+![Heiße Tage in Deutschland seit 1951]({{ '/assets/img/klimawandel/03-heisse-tage-deutschland.png' | relative_url }})
 
 ### Eis
 
