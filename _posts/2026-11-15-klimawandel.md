@@ -1,7 +1,5 @@
 # Beschwerden meiner Generation – 1. Klimawandel
 
-Nov 11, 2026 · @Erik
-
 Die Erde ist heute rund 1,4 °C wärmer als vor der Industrialisierung, und das fast ausschließlich durch den Menschen. Jedes weitere Zehntelgrad verstärkt Hitze, Dürren, Überschwemmungen und Artensterben. Die Folgen tragen vor allem junge und zukünftige Generationen.
 
 ## 1.1 Was ist Klimawandel und woher kommt er?
