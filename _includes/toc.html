@@ -1,0 +1,12 @@
+{%- comment -%}
+  Inhaltsverzeichnis aus den h2-Überschriften des gerenderten Kapitels.
+  Aufruf: include toc.html html=content
+{%- endcomment -%}
+{%- assign _parts = include.html | split: '<h2 id="' -%}
+<ul>
+{%- for _part in _parts offset: 1 -%}
+  {%- assign _id = _part | split: '"' | first -%}
+  {%- assign _text = _part | split: '</h2>' | first | remove_first: _id | remove_first: '">' | strip_html | strip -%}
+  <li><a href="#{{ _id }}">{{ _text }}</a></li>
+{%- endfor -%}
+</ul>

@@ -1,0 +1,73 @@
+---
+layout: default
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- comment -%} Erster Absatz = Einleitung (Lead), Rest = Kapiteltext {%- endcomment -%}
+{%- assign body = content | strip -%}
+{%- assign lead = "" -%}
+{%- assign starts = body | slice: 0, 3 -%}
+{%- if starts == "<p>" -%}
+  {%- assign lead = body | split: "</p>" | first | append: "</p>" -%}
+  {%- assign body = body | remove_first: lead -%}
+{%- endif -%}
+<article class="chapter">
+  <div class="column">
+    <header class="chapter-header">
+      <p class="eyebrow">{{ t.chapter }} {{ page.number }}</p>
+      <h1>{{ page.title }}</h1>
+      {%- if page.status != "planned" %}
+      <p class="meta">{% include reading-time.html html=content lang=page.lang %} · {{ t.updated }}: {% include date.html date=page.last_modified_at lang=page.lang %}</p>
+      {%- endif %}
+    </header>
+  </div>
+
+  {%- if page.status == "planned" %}
+  <div class="column prose">
+    <p class="notice">{{ t.planned_notice }}</p>
+    <p><a href="{{ t.home | relative_url }}">← {{ t.overview }}</a></p>
+  </div>
+  {%- else %}
+  <div class="chapter-layout">
+    <nav class="toc toc-side" aria-label="{{ t.contents }}">
+      <p class="toc-title">{{ t.contents }}</p>
+      {% include toc.html html=content %}
+    </nav>
+
+    <div class="prose chapter-text">
+      {%- if lead != "" %}
+      <div class="lead">{{ lead }}</div>
+      {%- endif %}
+
+      {%- if page.tldr %}
+      <aside class="tldr">
+        <p class="tldr-label">{{ t.tldr }}</p>
+        {{ page.tldr | markdownify }}
+      </aside>
+      {%- endif %}
+
+      <details class="toc toc-inline">
+        <summary>{{ t.contents }}</summary>
+        {% include toc.html html=content %}
+      </details>
+
+      {% include enhance-content.html html=body label=t.anchor_label %}
+
+      {%- if page.changelog %}
+      <section class="changelog">
+        <h2 class="changelog-title">{{ t.changelog }}</h2>
+        <ul>
+          {%- for entry in page.changelog %}
+          <li>{% include date.html date=entry.date lang=page.lang %}: {{ entry.text }}</li>
+          {%- endfor %}
+        </ul>
+      </section>
+      {%- endif %}
+    </div>
+  </div>
+
+  <div class="column">
+    {% include chapter-nav.html %}
+  </div>
+  <script src="{{ '/assets/js/toc.js' | relative_url }}" defer></script>
+  {%- endif %}
+</article>

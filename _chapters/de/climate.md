@@ -1,4 +1,22 @@
-# Beschwerden meiner Generation – 1. Klimawandel
+---
+title: Klimawandel
+number: 1
+status: published
+# 1–2 Sätze: Was steht im Kapitel? Erscheint im Inhaltsverzeichnis und in der Linkvorschau.
+description: "Ursachen, aktueller Stand, Folgen und Aussichten der Erderwärmung – und warum sie vor allem junge Generationen trifft."
+# Ein Satz mit Zahl für „Das Wichtigste in Kürze“ auf der Startseite
+key_finding: "Die Erde ist heute rund 1,4 °C wärmer als vor der Industrialisierung, und das fast ausschließlich durch den Menschen."
+# Kurzfassung oben im Kapitel (Markdown erlaubt, auch Aufzählungen)
+tldr: >-
+  Die Erwärmung ist messbar, menschengemacht und beschleunigt sich. Die Mittel, sie zu bremsen, sind vorhanden und bezahlbar. Dass sie zu langsam eingesetzt werden, bezahlen vor allem diejenigen, die heute jung sind.
+# Vorschaubild beim Teilen (PNG/JPG, kein SVG)
+image: /assets/img/climate/01-global-temperature.png
+date: 2026-11-15
+last_modified_at: 2026-11-15
+changelog:
+  - date: 2026-11-15
+    text: Erste Fassung
+---
 
 Die Erde ist heute rund 1,4 °C wärmer als vor der Industrialisierung, und das fast ausschließlich durch den Menschen. Jedes weitere Zehntelgrad verstärkt Hitze, Dürren, Überschwemmungen und Artensterben. Die Folgen tragen vor allem junge und zukünftige Generationen.
 
@@ -12,13 +30,13 @@ Klimawandel bezeichnet langfristige Veränderungen von Temperaturen und Wettermu
 
 **Der Mensch verstärkt ihn massiv.** Seit Beginn der Industrialisierung um 1750 verbrennen wir Kohle, Öl und Gas und roden Wälder. Der CO₂-Gehalt der Luft stieg dadurch um über 50 %, von rund 280 auf etwa 426 ppm: Heute sind 426 von einer Million Luftteilchen CO₂ ([NASA](https://science.nasa.gov/earth/explore/earth-indicators/carbon-dioxide/)). Dieser Anstieg ist mindestens 1,5-mal so groß wie der natürliche am Ende der letzten Eiszeit, geschah aber in wenigen Generationen statt in Jahrtausenden. So hoch war der CO₂-Gehalt zuletzt vor rund 3 Millionen Jahren. Der Weltklimarat (IPCC) hält es für eindeutig, dass der Mensch die Erwärmung verursacht ([IPCC](https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf)).
 
-![Globale Temperatur seit 1850]({{ '/assets/img/klimawandel/01-temperatur-global.png' | relative_url }})
+![Globale Temperatur seit 1850]({{ '/assets/img/climate/01-global-temperature.svg' | relative_url }})
 
 ## 1.2 Wo stehen wir?
 
 Alle zentralen Messgrößen zeigen in dieselbe Richtung, und viele beschleunigen sich. Temperaturen beziehen sich auf den vorindustriellen Durchschnitt 1850–1900.
 
-![CO₂-Gehalt der Luft seit 1850]({{ '/assets/img/klimawandel/02-co2.png' | relative_url }})
+![CO₂-Gehalt der Luft seit 1850]({{ '/assets/img/climate/02-co2.svg' | relative_url }})
 
 | Indikator | Aktueller Stand | Einordnung | Quelle |
 | --- | --- | --- | --- |
@@ -48,7 +66,7 @@ Abstrakte Zahlen wie +1,4 °C klingen harmlos. Übersetzt in Hitzetage, Todesfä
 - **Hitzetote in Europa:** Im Rekordsommer 2024 starben in 32 europäischen Ländern rund 62.800 Menschen an Hitze, darunter etwa 6.700 in Spanien und 6.300 in Deutschland ([ISGlobal](https://www.isglobal.org/en/-/62.700-muertes-asociadas-con-el-calor-del-verano-de-2024)). Zum Vergleich: Im Straßenverkehr der EU starben im ganzen Jahr 2024 rund 19.800 Menschen ([EU-Kommission](https://transport.ec.europa.eu/news-events/news/eu-road-fatalities-drop-3-2024-progress-remains-slow-2025-03-18_en)).
 - **Deutschland erwärmt sich schneller:** Seit 1881 ist es hier um 1,8 °C wärmer geworden, deutlich mehr als im weltweiten Durchschnitt ([DWD](https://bayika.de/bayika-wAssets/docs/aktuelles/2024/Faktenpapier_Extremwetter_DWD_EWK2024_09-1.pdf)).
 
-![Heiße Tage in Deutschland seit 1951]({{ '/assets/img/klimawandel/03-heisse-tage-deutschland.png' | relative_url }})
+![Heiße Tage in Deutschland seit 1951]({{ '/assets/img/climate/03-hot-days-germany.svg' | relative_url }})
 
 ### Eis
 
@@ -105,8 +123,6 @@ Die Technik für schnellen Klimaschutz ist vorhanden, und sie ist günstiger als
 - **Saubere Energie ist billig geworden.** Von 2010 bis 2019 fielen die Kosten für Solarstrom um 85 %, für Windstrom um 55 % und für Batterien um 85 % ([IPCC](https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf)). 2025 erzeugten erneuerbare Energien weltweit erstmals mehr Strom als Kohle ([Ember](https://ember-energy.org/latest-insights/global-electricity-review-2026/)).
 - **Halbieren wäre machbar.** Maßnahmen, die höchstens 100 US-Dollar pro Tonne CO₂ kosten, könnten die weltweiten Emissionen bis 2030 gegenüber 2019 mindestens halbieren. Der Nutzen, die Erwärmung auf 2 °C zu begrenzen, übersteigt die Kosten ([IPCC](https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf)).
 - **Das Geld fließt weiter in fossile Energie.** Regierungen gaben 2023 netto 956 Milliarden US-Dollar für Subventionen fossiler Brennstoffe aus. Das ist mehr als dreimal so viel, wie sie jährlich für besonders verwundbare Länder zugesagt haben ([Lancet Countdown](https://www.who.int/news/item/29-10-2025-climate-inaction-is-claiming-millions-of-lives-every-year--warns-new-lancet-countdown-report)). Insgesamt fließt noch immer mehr öffentliches und privates Geld in fossile Energie als in Klimaschutz und Anpassung ([IPCC](https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf)).
-
-**Kurz gesagt:** Die Erwärmung ist messbar, menschengemacht und beschleunigt sich. Die Mittel, sie zu bremsen, sind vorhanden und bezahlbar. Dass sie zu langsam eingesetzt werden, bezahlen vor allem diejenigen, die heute jung sind.
 
 ## Quellen und Weiterlesen
 

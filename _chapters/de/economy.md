@@ -1,4 +1,18 @@
-# Beschwerden meiner Generation – 2. Ökonomische Aussichten
+---
+title: Ökonomische Aussichten
+number: 2
+status: published
+description: "Löhne, Preise, Wohnen, Vermögen, Steuern und Rente – und warum der wirtschaftliche Einstieg für junge Menschen schwerer wird."
+key_finding: "Von einem durchschnittlichen Lohn kann man sich in Deutschland heute etwa so viel kaufen wie 2019."
+tldr: >-
+  Arbeit bringt heute kaum mehr Kaufkraft als vor sechs Jahren, Besitz dagegen hat viel stärker zugelegt, am stärksten bei den Superreichen, die zugleich besonders wenig Steuern zahlen. Wer jung ist und nichts erbt, startet mit stagnierenden Reallöhnen, hohen Mieten und kaum Aussicht auf Eigentum, und zahlt zugleich für die Renten einer wachsenden älteren Generation. Die Probleme sind seit Jahrzehnten bekannt, die Lösungen auch. Dass sie vertagt werden, bezahlen vor allem diejenigen, die heute jung sind.
+image: /assets/img/economy/wealth-distribution.png
+date: 2026-11-15
+last_modified_at: 2026-11-15
+changelog:
+  - date: 2026-11-15
+    text: Erste Fassung
+---
 
 Lange galt das Versprechen, dass es jeder Generation ein Stück besser geht als der vorherigen. Für viele junge Menschen gilt es nicht mehr: Die Reallöhne treten seit Jahren auf der Stelle, Wohnen wird immer teurer, und Vermögen wächst vor allem bei denen, die schon viel besitzen. Das sind meist die Älteren und ganz besonders die Superreichen, die zugleich auffallend wenig Steuern zahlen. Gleichzeitig zahlen wir höhere Beiträge für eine Rente, die für uns selbst niedriger ausfallen wird.
 
@@ -34,7 +48,7 @@ Beim Wohnen werden junge Menschen am stärksten ausgebremst. In den Großstädte
 | Angebotsmiete Berlin, kalt pro m² | 9,02 € (2016) | 15,25 € (2025) | [Bundesregierung, via Cash](https://www.cash-online.de/a/715496-2-715496/) |
 | Hauspreise in der EU | Index 100 (2010) | 158 (Anfang 2025) | [Eurostat](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250704-4) |
 | Mieten in der EU | Index 100 (2010) | 128 (Anfang 2025) | [Eurostat](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250704-4) |
-| Wohneigentum der 25- bis 34-Jährigen in Deutschland | 23 % (1999) | 12 % (2017) | [IW](https://www.iwkoeln.de/presse/pressemitteilungen/pekka-sagner-michael-voigtlaender-jeder-zweite-wohnt-zur-miete.html) |
+| Wohneigentum der 25- bis<br/> 34-Jährigen in Deutschland | 23 % (1999) | 12 % (2017) | [IW](https://www.iwkoeln.de/presse/pressemitteilungen/pekka-sagner-michael-voigtlaender-jeder-zweite-wohnt-zur-miete.html) |
 
 - **Den Marktpreis zahlt, wer neu sucht:** In 14 deutschen Großstädten stiegen die Angebotsmieten von 2016 bis 2025 um durchschnittlich 43 %, in Berlin um 69 % ([Bundesregierung, via Cash](https://www.cash-online.de/a/715496-2-715496/)). Die Löhne stiegen im selben Zeitraum nur um rund ein Drittel (eigene Überschlagsrechnung aus Destatis-Daten). Wer seit Jahren in derselben Wohnung lebt, ist durch das Mietrecht weitgehend geschützt. Den neuen Preis zahlen vor allem Studierende, Berufseinsteiger und junge Familien.
 - **Eigentum wird zur Frage der Herkunft:** Von den Haushalten unter 35 Jahren besitzen nur 7 % ihre Wohnung oder ihr Haus, bei den 55- bis 64-Jährigen sind es 56 % ([IW, Daten der Bundesbank 2023](https://www.iwkoeln.de/studien/judith-niehues-maximilian-stockhausen-ein-vermoegensvergleich-nach-altersgruppen.html)).
@@ -46,7 +60,7 @@ Für die Generation unserer Eltern war die eigene Wohnung der wichtigste Weg, Ve
 
 Vermögen wächst schneller als Löhne, und am schnellsten ganz oben. Weltweit hat sich das Vermögen der Milliardäre seit 2019 mehr als verdoppelt. In Deutschland ist Vermögen so ungleich verteilt wie in kaum einem anderen Land der Eurozone, und ein großer Teil davon wird geerbt.
 
-![Balkendiagramm: Das Vermögen der Milliardäre stieg von 3,6 Billionen US-Dollar (2010) über 8,7 (2019) auf 20,1 Billionen (2026)]({{ '/assets/img/oekonomie/milliardaersvermoegen.svg' | relative_url }})
+![Balkendiagramm: Das Vermögen der Milliardäre stieg von 3,6 Billionen US-Dollar (2010) über 8,7 (2019) auf 20,1 Billionen (2026)]({{ '/assets/img/economy/billionaire-wealth.svg' | relative_url }})
 
 Die Liste für 2020 entstand während des Börseneinbruchs zu Beginn der Corona-Pandemie. Deshalb ist 2019 der fairere Vergleichspunkt ([Forbes, via Wikipedia](https://en.wikipedia.org/wiki/The_World%27s_Billionaires)).
 
@@ -56,7 +70,7 @@ Die Liste für 2020 entstand während des Börseneinbruchs zu Beginn der Corona-
 - **Wenige besitzen mehr als die halbe Menschheit:** Die reichsten 10 % der Weltbevölkerung besitzen rund 75 % des Vermögens, die ärmere Hälfte nur 2 %. Weniger als 60.000 Menschen besitzen dreimal so viel wie die gesamte ärmere Hälfte der Menschheit ([World Inequality Report 2026, via Guardian](https://www.irishexaminer.com/news/arid-41757617.html)).
 - **Deutschland ist vorne dabei:** Hier leben 172 Milliardäre mit zusammen über 715 Milliarden Euro. Ihr Vermögen wuchs 2025 real um rund 30 %. Nur die USA, China und Indien haben mehr Milliardäre ([Oxfam Deutschland, Januar 2026](https://www.oxfam.de/system/files/documents/2026-01/20260119-zerreissprobe.pdf)).
 
-![Gestapelte Balken: Die ärmere Hälfte besitzt in Deutschland rund 3 % und weltweit rund 2 % des Vermögens, die reichsten 10 % besitzen 60 % bzw. 75 %]({{ '/assets/img/oekonomie/vermoegensverteilung.svg' | relative_url }})
+![Gestapelte Balken: Die ärmere Hälfte besitzt in Deutschland rund 3 % und weltweit rund 2 % des Vermögens, die reichsten 10 % besitzen 60 % bzw. 75 %]({{ '/assets/img/economy/wealth-distribution.svg' | relative_url }})
 
 Die oberste Zeile zeigt, wie groß die drei Gruppen sind, die beiden unteren, wie viel sie besitzen.
 
@@ -136,8 +150,6 @@ Viele Lösungen sind bekannt und werden von unabhängigen Fachleuten empfohlen. 
 - **Früh Vermögen aufbauen:** Derselbe Rat schlägt ein staatlich gefördertes Vorsorgedepot vor, in das alle Beschäftigten automatisch einzahlen. Ein kleiner erster Schritt ist die Frühstart-Rente: Ab 2027 zahlt der Staat für jedes Kind von 6 bis 18 Jahren 10 Euro im Monat in ein Depot ([Deutsche Rentenversicherung](https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2026/261019_fruehstartrente_faq.html)).
 - **Die Rente fair umbauen:** Die Rentenkommission schlägt vor, das Rentenalter an die Lebenserwartung zu koppeln, Beamte und Abgeordnete langfristig einzubeziehen und über den Nachhaltigkeitsfaktor auch die heutigen Rentner an den Kosten der Alterung zu beteiligen ([ZDF](https://www.zdfheute.de/politik/deutschland/rente-kommission-bericht-eintrittsalter-beitragszahler-100.html)).
 - **Schulden wirklich für die Zukunft nutzen:** 2025 beschloss der Bundestag ein Sondervermögen von 500 Milliarden Euro für Infrastruktur und Klimaschutz, bezahlt mit Krediten, die künftige Generationen abtragen. Laut ifo-Institut flossen 95 % der neuen Schulden 2025 nicht in zusätzliche Investitionen, sondern ersetzten Ausgaben, die sonst im normalen Haushalt gestanden hätten. Das Finanzministerium bestreitet das ([Ärzteblatt](https://www.aerzteblatt.de/themen/sozialpolitik/okonomen-regierung-hat-sondervermogen-bislang-fast-komplett-zweckentfremdet-96bdb949-ced6-45ee-a3ca-4bfde761feb7)).
-
-**Kurz gesagt:** Arbeit bringt heute kaum mehr Kaufkraft als vor sechs Jahren, Besitz dagegen hat viel stärker zugelegt, am stärksten bei den Superreichen, die zugleich besonders wenig Steuern zahlen. Wer jung ist und nichts erbt, startet mit stagnierenden Reallöhnen, hohen Mieten und kaum Aussicht auf Eigentum, und zahlt zugleich für die Renten einer wachsenden älteren Generation. Die Probleme sind seit Jahrzehnten bekannt, die Lösungen auch. Dass sie vertagt werden, bezahlen vor allem diejenigen, die heute jung sind.
 
 ## Quellen und Weiterlesen
 

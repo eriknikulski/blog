@@ -1,0 +1,46 @@
+# UI-Texte pro Sprache. Neue Sprache = neuer Block mit denselben Schlüsseln.
+de:
+  home: /
+  site_title: Beschwerden meiner Generation
+  skip_to_content: Zum Inhalt springen
+  about: Über das Projekt
+  about_short: Über
+  about_url: /about/
+  chapter: Kapitel
+  chapters: Kapitel
+  contents: Inhalt
+  minutes_reading: Min. Lesezeit
+  updated: Stand
+  tldr: Kurz gesagt
+  key_findings: Das Wichtigste in Kürze
+  planned: in Arbeit
+  planned_notice: Dieses Kapitel ist in Arbeit und erscheint demnächst.
+  previous: Vorheriges Kapitel
+  next: Nächstes Kapitel
+  overview: Zur Übersicht
+  changelog: Änderungen
+  anchor_label: Link zu diesem Abschnitt
+  months: [Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
+
+en:
+  home: /en/
+  site_title: Complaints of My Generation
+  skip_to_content: Skip to content
+  about: About
+  about_short: About
+  about_url: /en/about/
+  chapter: Chapter
+  chapters: Chapters
+  contents: Contents
+  minutes_reading: min read
+  updated: Last updated
+  tldr: In short
+  key_findings: Key findings
+  planned: in progress
+  planned_notice: This chapter is in progress and will be published soon.
+  previous: Previous chapter
+  next: Next chapter
+  overview: Back to overview
+  changelog: Changes
+  anchor_label: Link to this section
+  months: [January, February, March, April, May, June, July, August, September, October, November, December]

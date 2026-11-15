@@ -1,0 +1,7 @@
+{%- comment -%}
+  GoatCounter: keine Cookies, keine personenbezogenen Daten, daher kein Banner nötig.
+  Nur im Live-Build (GitHub Pages setzt JEKYLL_ENV=production) und nur, wenn ein Code gesetzt ist.
+{%- endcomment -%}
+{%- if jekyll.environment == "production" and site.goatcounter and site.goatcounter != "" %}
+  <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+{%- endif -%}

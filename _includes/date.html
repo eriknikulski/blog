@@ -1,0 +1,11 @@
+{%- comment -%} Datum lokalisiert ausgeben. Aufruf: include date.html date=... lang=... {%- endcomment -%}
+{%- assign _d = include.date -%}
+{%- assign _t = site.data.i18n[include.lang] -%}
+{%- assign _m = _d | date: "%-m" | minus: 1 -%}
+<time datetime="{{ _d | date: '%Y-%m-%d' }}">
+{%- if include.lang == "de" -%}
+{{ _d | date: "%-d" }}. {{ _t.months[_m] }} {{ _d | date: "%Y" }}
+{%- else -%}
+{{ _t.months[_m] }} {{ _d | date: "%-d, %Y" }}
+{%- endif -%}
+</time>

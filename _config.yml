@@ -1,34 +1,55 @@
-title: "My Blogs Name"
+# ---------------------------------------------------------------------------
+# Site
+# ---------------------------------------------------------------------------
+title: "Beschwerden meiner Generation"
+description: "Klima, Wirtschaft, Politik und Gesellschaft: Was auf junge und künftige Generationen zukommt – mit Zahlen und Quellen."
 author: "Erik Nikulski"
-description: "Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
-
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
 email: "blog@eriknikulski.me"
-github_username: "eriknikulski"
-#linkedin_username: "linkedinuser"
+lang: de
+url: "https://eriknikulski.me"
+baseurl: "/blog"
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
+goatcounter: "eriknikulski"
 
-minima:
-  skin: auto
+# ---------------------------------------------------------------------------
+# Build
+# ---------------------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 
-rss: rss
-    
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
-titles_from_headings:
-  strip_title: true
-  collections: true
+collections:
+  chapters:
+    output: true
 
 defaults:
   - scope:
       path: ""
-      type: post
     values:
-      tags: Other
+      lang: de
+  - scope:
+      path: "_chapters/de"
+      type: chapters
+    values:
+      layout: chapter
+      lang: de
+      permalink: /:title/
+  - scope:
+      path: "_chapters/en"
+      type: chapters
+    values:
+      layout: chapter
+      lang: en
+      permalink: /en/:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - "Claude outputs"   # Vorschaubilder aus Claude, nicht veröffentlichen
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

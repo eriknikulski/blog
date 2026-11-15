@@ -1,0 +1,70 @@
+---
+layout: default
+---
+{%- comment -%}
+  Startseite. Der Text aus index.md wird an der Markierung <!-- chapters -->
+  geteilt: davor die Einleitung, danach z. B. Methodik. Dazwischen erscheinen
+  automatisch „Das Wichtigste in Kürze“ und das Kapitelverzeichnis.
+{%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign chapters = site.chapters | where: "lang", page.lang | sort: "number" -%}
+{%- assign parts = content | split: "<!-- chapters -->" -%}
+{%- assign latest = chapters | where: "status", "published" | sort: "last_modified_at" | last -%}
+<div class="home">
+  <div class="column">
+    <header class="hero">
+      <h1>{{ page.title | default: t.site_title }}</h1>
+      {%- if page.tagline %}
+      <p class="tagline">{{ page.tagline }}</p>
+      {%- endif %}
+      {%- if latest %}
+      <p class="meta">{{ t.updated }}: {% include date.html date=latest.last_modified_at lang=page.lang %}</p>
+      {%- endif %}
+    </header>
+
+    <div class="prose intro">
+      {{ parts[0] }}
+    </div>
+
+    <section class="key-findings" aria-labelledby="key-findings">
+      <h2 id="key-findings">{{ t.key_findings }}</h2>
+      <ul>
+        {%- for c in chapters -%}
+          {%- if c.status != "planned" and c.key_finding != "" and c.key_finding -%}
+          <li><a href="{{ c.url | relative_url }}">{{ c.title }}:</a> {{ c.key_finding }}</li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </section>
+
+    <section class="chapters" aria-labelledby="chapters">
+      <h2 id="chapters">{{ t.chapters }}</h2>
+      <ol class="chapter-list">
+        {%- for c in chapters %}
+        <li class="chapter-item{% if c.status == 'planned' %} is-planned{% endif %}">
+          <span class="chapter-number" aria-hidden="true">{{ c.number }}</span>
+          <div class="chapter-body">
+            {%- if c.status == "planned" %}
+            <h3>{{ c.title }} <span class="badge">{{ t.planned }}</span></h3>
+            {%- else %}
+            <h3><a href="{{ c.url | relative_url }}">{{ c.title }}</a></h3>
+            {%- endif %}
+            {%- if c.description and c.description != "" %}
+            <p>{{ c.description }}</p>
+            {%- endif %}
+            {%- if c.status != "planned" %}
+            <p class="meta">{% include reading-time.html html=c.content lang=page.lang %} · {{ t.updated }}: {% include date.html date=c.last_modified_at lang=page.lang %}</p>
+            {%- endif %}
+          </div>
+        </li>
+        {%- endfor %}
+      </ol>
+    </section>
+
+    {%- if parts[1] %}
+    <div class="prose outro">
+      {{ parts[1] }}
+    </div>
+    {%- endif %}
+  </div>
+</div>

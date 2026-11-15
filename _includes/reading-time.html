@@ -1,0 +1,4 @@
+{%- comment -%} Lesezeit bei ca. 200 Wörtern pro Minute. Aufruf: include reading-time.html html=... {%- endcomment -%}
+{%- assign _words = include.html | strip_html | number_of_words -%}
+{%- assign _min = _words | plus: 199 | divided_by: 200 -%}
+{{ _min }}&nbsp;{{ site.data.i18n[include.lang].minutes_reading }}

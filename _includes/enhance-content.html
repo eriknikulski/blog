@@ -1,0 +1,31 @@
+{%- comment -%}
+  Bereitet gerenderten Kapiteltext auf, ohne JavaScript:
+  1. Ankerlinks an h2/h3, damit man einzelne Abschnitte verlinken kann
+  2. Tabellen kommen in einen Container, der auf dem Handy seitlich scrollt
+     und auf breiten Bildschirmen über die Textspalte hinausragen darf
+  3. Bilder, die allein in einem Absatz stehen, werden zu <figure> mit Link aufs Original
+  Aufruf: include enhance-content.html html=... label=...
+{%- endcomment -%}
+{%- assign _html = include.html -%}
+{%- for _level in (2..3) -%}
+  {%- assign _open = '<h' | append: _level | append: ' id="' -%}
+  {%- assign _close = '</h' | append: _level | append: '>' -%}
+  {%- assign _parts = _html | split: _open -%}
+  {%- capture _html -%}
+    {{- _parts[0] -}}
+    {%- for _part in _parts offset: 1 -%}
+      {%- assign _id = _part | split: '"' | first -%}
+      {%- assign _head = _part | split: _close | first -%}
+      {%- assign _tail = _part | remove_first: _head | remove_first: _close -%}
+      {%- assign _inner = _head | remove_first: _id | remove_first: '">' -%}
+      {{- _open }}{{ _id }}">{{ _inner }} <a class="anchor" href="#{{ _id }}" aria-label="{{ include.label }}">#</a>{{ _close }}{{ _tail -}}
+    {%- endfor -%}
+  {%- endcapture -%}
+{%- endfor -%}
+{%- assign _html = _html | replace: '<table>', '<div class="table-wrap"><table>' | replace: '</table>', '</table></div>' -%}
+{%- assign _figs = _html | split: '<p><img src="' -%}
+{{- _figs[0] -}}
+{%- for _f in _figs offset: 1 -%}
+  {%- assign _src = _f | split: '"' | first -%}
+  <figure><a href="{{ _src }}"><img loading="lazy" src="{{ _f | replace_first: ' /></p>', ' /></a></figure>' }}
+{%- endfor -%}

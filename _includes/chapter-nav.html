@@ -1,0 +1,36 @@
+{%- assign _t = site.data.i18n[page.lang] -%}
+{%- assign _chapters = site.chapters | where: "lang", page.lang | sort: "number" -%}
+{%- for _c in _chapters -%}{%- if _c.url == page.url -%}{%- assign _idx = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- assign _prev_i = _idx | minus: 1 -%}
+{%- assign _next_i = _idx | plus: 1 -%}
+<nav class="chapter-nav" aria-label="{{ _t.chapters }}">
+  {%- if _idx > 0 -%}
+    {%- assign _p = _chapters[_prev_i] -%}
+    <a class="chapter-nav-item prev" href="{{ _p.url | relative_url }}">
+      <span class="chapter-nav-label">← {{ _t.previous }}</span>
+      <span class="chapter-nav-title">{{ _p.number }}. {{ _p.title }}</span>
+    </a>
+  {%- else -%}
+    <a class="chapter-nav-item prev" href="{{ _t.home | relative_url }}">
+      <span class="chapter-nav-label">← {{ _t.overview }}</span>
+      <span class="chapter-nav-title">{{ _t.site_title }}</span>
+    </a>
+  {%- endif -%}
+  {%- assign _n = _chapters[_next_i] -%}
+  {%- if _n and _n.status != "planned" -%}
+    <a class="chapter-nav-item next" href="{{ _n.url | relative_url }}">
+      <span class="chapter-nav-label">{{ _t.next }} →</span>
+      <span class="chapter-nav-title">{{ _n.number }}. {{ _n.title }}</span>
+    </a>
+  {%- elsif _n -%}
+    <div class="chapter-nav-item next is-planned">
+      <span class="chapter-nav-label">{{ _t.next }} ({{ _t.planned }})</span>
+      <span class="chapter-nav-title">{{ _n.number }}. {{ _n.title }}</span>
+    </div>
+  {%- else -%}
+    <a class="chapter-nav-item next" href="{{ _t.home | relative_url }}">
+      <span class="chapter-nav-label">{{ _t.overview }} →</span>
+      <span class="chapter-nav-title">{{ _t.site_title }}</span>
+    </a>
+  {%- endif -%}
+</nav>
