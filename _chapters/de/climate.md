@@ -2,14 +2,10 @@
 title: Klimawandel
 number: 1
 status: published
-# 1–2 Sätze: Was steht im Kapitel? Erscheint im Inhaltsverzeichnis und in der Linkvorschau.
 description: "Ursachen, aktueller Stand, Folgen und Aussichten der Erderwärmung – und warum sie vor allem junge Generationen trifft."
-# Ein Satz mit Zahl für „Das Wichtigste in Kürze“ auf der Startseite
 key_finding: "Die Erde ist heute rund 1,4 °C wärmer als vor der Industrialisierung, und das fast ausschließlich durch den Menschen."
-# Kurzfassung oben im Kapitel (Markdown erlaubt, auch Aufzählungen)
 tldr: >-
   Die Erwärmung ist messbar, menschengemacht und beschleunigt sich. Die Mittel, sie zu bremsen, sind vorhanden und bezahlbar. Dass sie zu langsam eingesetzt werden, bezahlen vor allem diejenigen, die heute jung sind.
-# Vorschaubild beim Teilen (PNG/JPG, kein SVG)
 image: /assets/img/climate/01-global-temperature.png
 date: 2026-11-15
 last_modified_at: 2026-11-15
