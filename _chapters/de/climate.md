@@ -7,10 +7,10 @@ key_finding: "Die Erde ist heute rund 1,4 °C wärmer als vor der Industrialisie
 tldr: >-
   Die Erwärmung ist messbar, menschengemacht und beschleunigt sich. Die Mittel, sie zu bremsen, sind vorhanden und bezahlbar. Dass sie zu langsam eingesetzt werden, bezahlen vor allem diejenigen, die heute jung sind.
 image: /assets/img/climate/01-global-temperature.png
-date: 2026-11-15
-last_modified_at: 2026-11-15
+date: 2026-11-17
+last_modified_at: 2026-11-17
 changelog:
-  - date: 2026-11-15
+  - date: 2026-11-17
     text: Erste Fassung
 ---
 

@@ -7,13 +7,11 @@ key_finding: "Von einem durchschnittlichen Lohn kann man sich in Deutschland heu
 tldr: >-
   Arbeit bringt heute kaum mehr Kaufkraft als vor sechs Jahren, Besitz dagegen hat viel stärker zugelegt, am stärksten bei den Superreichen, die zugleich besonders wenig Steuern zahlen. Wer jung ist und nichts erbt, startet mit stagnierenden Reallöhnen, hohen Mieten und kaum Aussicht auf Eigentum, und zahlt zugleich für die Renten einer wachsenden älteren Generation. Die Probleme sind seit Jahrzehnten bekannt, die Lösungen auch. Dass sie vertagt werden, bezahlen vor allem diejenigen, die heute jung sind.
 image: /assets/img/economy/wealth-distribution.png
-date: 2026-11-15
+date: 2026-11-17
 last_modified_at: 2026-11-17
 changelog:
-  - date: 2026-11-15
-    text: Erste Fassung
   - date: 2026-11-17
-    text: Quellenlinks auf Originalquellen umgestellt, OECD-Angabe präzisiert
+    text: Erste Fassung
 ---
 
 Lange galt das Versprechen, dass es jeder Generation ein Stück besser geht als der vorherigen. Für viele junge Menschen gilt es nicht mehr: Die Reallöhne treten seit Jahren auf der Stelle, Wohnen wird immer teurer, und Vermögen wächst vor allem bei denen, die schon viel besitzen. Das sind meist die Älteren und ganz besonders die Superreichen, die zugleich auffallend wenig Steuern zahlen. Gleichzeitig zahlen wir höhere Beiträge für eine Rente, die für uns selbst niedriger ausfallen wird.
