@@ -3,7 +3,7 @@ title: Ökonomische Aussichten
 number: 2
 status: published
 description: "Löhne, Preise, Wohnen, Vermögen, Steuern und Rente – und warum der wirtschaftliche Einstieg für junge Menschen schwerer wird."
-key_finding: "Haushalte unter 35 besitzen im Mittel 17.300 €, Haushalte zwischen 55 und 64 rund 241.100 €."
+key_finding: "Haushalte unter 35 besitzen im Mittel 17.300&nbsp;€, Haushalte zwischen 55 und 64 rund 241.100&nbsp;€."
 tldr: >-
   Arbeit bringt heute kaum mehr Kaufkraft als vor sechs Jahren, Besitz dagegen hat viel stärker zugelegt, am stärksten bei den Superreichen, die zugleich besonders wenig Steuern zahlen. Wer jung ist und nichts erbt, startet mit stagnierenden Reallöhnen, hohen Mieten und kaum Aussicht auf Eigentum, und zahlt zugleich für die Renten einer wachsenden älteren Generation. Die Probleme sind seit Jahrzehnten bekannt, die Lösungen auch. Dass sie vertagt werden, bezahlen vor allem diejenigen, die heute jung sind.
 image: /assets/img/economy/wealth-distribution.png
